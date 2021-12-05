@@ -20,7 +20,7 @@ Opencv-python == 4.5.3.56
 
 A requirements.txt file can also be found. 
 
-#Starting Codes and our implementation version
+# Starting Codes and our implementation version
 
 Our base code for all the models were of Efficient Sub-pixel CNN from Keras’ website. We changed the process_input method from ‘area’ to ‘bicubic’. Changed variable names to make it easy for us to understand. We also mentioned the whole dataset path instead of using ‘os.path.join’ command used in the dataset. We used changed our metric to accuracy too. We used our own dataset path instead of using Berkeley dataset as mentioned on the website of the code. Testing has been done on all models for 10, 50, 100, 1000, 4000 images but the default is 10.
 
@@ -44,9 +44,9 @@ DBSRCNN: Last convolution layer was changed as well as added the last layer of �
 
 Our Model: Used the base Keras’ code like the previous models only the changed the network to make a hybrid model. Also, the learning rate was changed from 0.001 to 0.0001 and one of the utility methods had zooming inside the displayed image.  
 
-#Datasets
+# Datasets
 
-##Dataset 
+## Dataset 
 
 We found the dataset in https://github.com/NVlabs/ffhq-dataset which directed us to the link below where we obtained the data. 
 
