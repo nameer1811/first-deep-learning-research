@@ -1,4 +1,4 @@
-# Generating High Resolution Image from Low Resolution Image Using Hybrid Neural Network of DBSRCNN, DNSRCNN, and ESPCNN
+# Generating High Resolution Image from Low Resolution Image Using Hybrid Neural Network of DBSRCNN and DDSRCNN
 
 ## This deep learning project was done for a class.
 
