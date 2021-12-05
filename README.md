@@ -1,12 +1,12 @@
 # Generating High Resolution Image from Low Resolution Image Using Hybrid Neural Network of DBSRCNN, DNSRCNN, and ESPCNN
 
-##This deep learning project was done for a class.
+## This deep learning project was done for a class.
 
-#Abstract
+# Abstract
 
 In this modern era, having high resolution-colored images has never been easier. There are numerous tools that enable people to get high resolution-colored images, however, there are several circumstances where having such kind of images is extremely difficult or hard to get. The aim is to reduce the problems and hassle of identifying criminals caught by police dash cams and CCTV cameras. We also want to focus on generating high resolution image from low resolution image for people using phones with lower resolution cameras. So, in the hopes of improving that aspect, we plan to turn low-resolution grey images to high-resolution color images. By using our algorithm, phone companies can use inexpensive cameras with low resolution and the image taken with those cameras will go through our algorithm and turn them to high quality and sharp images and modify those images taken by police dash cams and CCTV cameras.
 
-#Implementation details
+# Implementation details
 
 GPU == Nvidia Quadro RTX 8000
 Keras == 2.4.3
@@ -24,7 +24,7 @@ A requirements.txt file can also be found.
 
 Our base code for all the models were of Efficient Sub-pixel CNN from Keras’ website. We changed the process_input method from ‘area’ to ‘bicubic’. Changed variable names to make it easy for us to understand. We also mentioned the whole dataset path instead of using ‘os.path.join’ command used in the dataset. We used changed our metric to accuracy too. We used our own dataset path instead of using Berkeley dataset as mentioned on the website of the code. Testing has been done on all models for 10, 50, 100, 1000, 4000 images but the default is 10.
 
-##Starting codes links
+## Starting codes links
 
 Dataset: https://github.com/NVlabs/ffhq-dataset
 Deep Denoising (DDSRCNN) and Denoising (Autoencoder): https://github.com/titu1994/ Image-Super-Resolution
@@ -32,7 +32,7 @@ Deblurring CNN: https://github.com/Fatma-ALbluwi/ DBSRCNN/blob/master/DBSRCNN_tr
 Efficient Sub-Pixel CNN: https://keras.io/examples/vision/super_resolution_sub_pixel/
 
 
-##Difference between the starting codes and our own implementation codes
+## Difference between the starting codes and our own implementation codes
 
 ESPCNN: Keras’ website had different convolutional layers which were not working great for us so we changed the filter sizes for 3 of the 4 convolutional layers as well. For ESPCNN we also got rid of the zooming inside the displayed image. We changed the learning rate from 0.001 to 0.0001. They also ran the images for 100 Epochs, and we ran it for 50 Epochs.
 
@@ -55,7 +55,7 @@ Dataset (1024 x 1024) link: https://drive.google.com/drive/folders/1tZUcXDBeOibC
 In the file data_preprocess.ipynb, we resized the images from 1024 x 1024 to 256 x 256. Then in the code files ESPCNN.ipynb, DSRCNN.ipynb, DDSRCNN.ipynb, DBSRCNN.ipynb, and our_model.ipynb we preprocess the data again to process the target and process the input. 
 
 
-##Preprocessing 
+## Preprocessing 
 
 If there is any pre-processing for your dataset, please specify the file you use for pre-processing. The following is just an example.
 
