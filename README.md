@@ -27,8 +27,8 @@ Our base code for all the models were of Efficient Sub-pixel CNN from Keras’ w
 ## Starting codes links
 
 Dataset: https://github.com/NVlabs/ffhq-dataset
-Deep Denoising (DDSRCNN) and Denoising (Autoencoder): https://github.com/titu1994/ Image-Super-Resolution
-Deblurring CNN: https://github.com/Fatma-ALbluwi/ DBSRCNN/blob/master/DBSRCNN_train/DBSRCNN_train.py
+Deep Denoising (DDSRCNN) and Denoising (Autoencoder): https://github.com/titu1994/Image-Super-Resolution
+Deblurring CNN: https://github.com/Fatma-ALbluwi/DBSRCNN/blob/master/DBSRCNN_train/DBSRCNN_train.py
 Efficient Sub-Pixel CNN: https://keras.io/examples/vision/super_resolution_sub_pixel/
 
 
